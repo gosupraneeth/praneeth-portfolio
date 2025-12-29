@@ -6,7 +6,7 @@ import { ProjectsSection } from "./components/ProjectsSection";
 import { PublicationsSection } from "./components/PublicationsSection";
 import { SkillsSection } from "./components/SkillsSection";
 import { EducationSection } from "./components/EducationSection";
-import { CertificationsSection } from "./components/CertificationsSection";
+// import { CertificationsSection } from "./components/CertificationsSection";
 import { AchievementsSection } from "./components/AchievementsSection";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
@@ -28,7 +28,7 @@ export default function App() {
         <PublicationsSection />
         <SkillsSection />
         <EducationSection />
-        <CertificationsSection />
+        {/* <CertificationsSection /> */}
         <AchievementsSection />
         <ContactSection />
       </main>
