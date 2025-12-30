@@ -13,10 +13,19 @@ export function ProjectsSection() {
 
   const projects = [
     {
+      title: "Decentralised Authentication Protocol for Devices & Users to Access Private Network Services Using Blockchain.",
+      description: "Decentralized authentication protocol for IoT devices using blockchain technology, published in IEEE conference.",
+      technologies: ["Blockchain", "Cryptography", "Hyperledger Fabric", "Arduino Mega","PUF"],
+      period: "2022 - 2023",
+      link: "https://github.com/gosupraneeth/major-project",
+      gradient: "from-blue-500 via-indigo-500 to-purple-500",
+      iconGradient: "from-blue-600 to-indigo-600",
+    },
+    {
       title: "Vision-based Hand Gesture Interface for Real-time Computer Operation Control",
       description: "Vision-based hand gesture recognition system for real-time computer control using deep learning and computer vision techniques.",
       technologies: ["Python", "OpenCV", "TensorFlow", "Computer Vision","MediaPipe","PyAutoGUI"],
-      period: "2021",
+      period: "Jan - Apr 2022",
       link: "https://github.com/gosupraneeth/Vision-based-Hand-Gesture-Interface-for-Real-time-Computer-Operation-Control",
       gradient: "from-teal-500 via-cyan-500 to-blue-500",
       iconGradient: "from-teal-600 to-cyan-600",
@@ -25,19 +34,10 @@ export function ProjectsSection() {
       title: "Long Short Term Memory Networks for Lexical Normalization of Tweets",
       description: "NLP project implementing LSTM networks for text normalization and processing of non-standard language forms.",
       technologies: ["Python", "LSTM", "NLP", "TensorFlow"],
-      period: "2021",
+      period: "Aug - Nov 2021",
       link: "https://github.com/gosupraneeth/Lexical_Normalization",
       gradient: "from-cyan-500 via-blue-500 to-indigo-500",
       iconGradient: "from-cyan-600 to-blue-600",
-    },
-    {
-      title: "Decentralised Authentication Protocol for Devices & Users to Access Private Network Services Using Blockchain.",
-      description: "Decentralized authentication protocol for IoT devices using blockchain technology, published in IEEE conference.",
-      technologies: ["Blockchain", "Cryptography", "Hyperledger Fabric", "Arduino Mega","PUF"],
-      period: "2021",
-      link: "https://github.com/gosupraneeth/major-project",
-      gradient: "from-blue-500 via-indigo-500 to-purple-500",
-      iconGradient: "from-blue-600 to-indigo-600",
     },
     {
       title: "Traffic Sign Predictor",

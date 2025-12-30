@@ -12,9 +12,9 @@ export function AchievementsSection() {
     {
       icon: FileText,
       title: "IEEE Author",
-      description: "Published 2 research papers in IEEE conferences",
+      description: "Published 3 research papers in IEEE conferences",
       color: "from-blue-500 via-cyan-500 to-teal-500",
-      count: "2",
+      count: "3",
     },
     {
       icon: Trophy,
@@ -30,20 +30,20 @@ export function AchievementsSection() {
       color: "from-purple-500 via-pink-500 to-rose-500",
       count: "3",
     },
-    {
-      icon: Code,
-      title: "Open Source",
-      description: "Active contributions to developer community",
-      color: "from-green-500 via-emerald-500 to-teal-500",
-      count: "100+",
-    },
-    {
-      icon: Sparkles,
-      title: "E-Commerce Projects",
-      description: "Built full-stack e-commerce solutions",
-      color: "from-indigo-500 via-purple-500 to-pink-500",
-      count: "10+",
-    },
+    // {
+    //   icon: Code,
+    //   title: "Open Source",
+    //   description: "Active contributions to developer community",
+    //   color: "from-green-500 via-emerald-500 to-teal-500",
+    //   count: "100+",
+    // },
+    // {
+    //   icon: Sparkles,
+    //   title: "E-Commerce Projects",
+    //   description: "Built full-stack e-commerce solutions",
+    //   color: "from-indigo-500 via-purple-500 to-pink-500",
+    //   count: "10+",
+    // },
   ];
 
   return (
