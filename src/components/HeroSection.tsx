@@ -11,7 +11,7 @@ export function HeroSection() {
   };
 
   const handleResumeDownload = () => {
-    const fileId = '1Z8_FbFuSv5WqgYq2Fp0Sn4mMCOzCoQLW';
+    const fileId = '1-xtRWfbTnRenj811ai2Lr1fwB_8dOFx0';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
     window.open(downloadUrl, '_blank');
   };
